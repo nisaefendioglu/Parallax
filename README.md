@@ -1,2 +1,2 @@
 # Parallax
-Compose
+Jetpack Compose, Parallax Library, Kotlin
