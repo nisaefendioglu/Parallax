@@ -1,4 +1,4 @@
-### Parallax Examples :
+# Parallax Examples :
 Examples of ParallaxView and ParallaxScrollEfect are in the repo. You can find the necessary titles and outputs in the continuation of the Readme file.
 
 <code><img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-ar21.svg"></code>
