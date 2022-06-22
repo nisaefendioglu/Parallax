@@ -39,7 +39,7 @@ fun ParallaxScreen(modifier: Modifier = Modifier) {
             modifier = Modifier
                 .fillMaxWidth()
                 .align(Alignment.Center),
-            depthMultiplier = 20,
+            depthMultiplier = 12,
             data = data
         )
     }
