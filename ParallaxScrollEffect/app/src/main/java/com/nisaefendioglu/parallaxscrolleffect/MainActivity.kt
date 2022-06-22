@@ -18,7 +18,7 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            //ParallaxEffect fonk kullanmak için scroll yapma durumunu tanımlıyoruz.
+            // To use the ParallaxEffect func, we define the scrolling state.
             val scrollState = rememberScrollState()
             ParallaxScrollEffectTheme() {
                 Surface(color = MaterialTheme.colors.background) {

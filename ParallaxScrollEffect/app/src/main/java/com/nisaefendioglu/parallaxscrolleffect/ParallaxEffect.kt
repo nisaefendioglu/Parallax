@@ -22,7 +22,7 @@ fun ParallaxEffect(scrollState: ScrollState) {
     ) {
         Column {
             TopAppBar(
-                //TopAppBar alanındaki başlık stili
+                // Header style in TopAppBar field
                 title = {
                     Text(
                         text = "Android Software Development",
@@ -34,14 +34,14 @@ fun ParallaxEffect(scrollState: ScrollState) {
             )
 
             Column(
-                //Y ekseninde scrolling yapabilmek için verticalScroll tanımlama
+                //Defining verticalScroll to scroll on the Y axis
                 modifier = Modifier
                     .verticalScroll(scrollState)
                     .fillMaxSize()
             ) {
                 val height = 320.dp
                 Image(
-                    //Kullanılan resmi belirleme
+                    // Determine the image used
                     painter = painterResource(id = R.drawable.android),
                     contentDescription = "Android Image",
                     contentScale = ContentScale.FillBounds,
@@ -49,7 +49,7 @@ fun ParallaxEffect(scrollState: ScrollState) {
                         .fillMaxWidth()
                         .height(height)
                         .graphicsLayer {
-                            //Scroll yapma işleminde soluklaştırma görüntüsünü oluşturma
+                            //Creating the fade image in the scrolling process
                             alpha = min(
                                 1f,
                                 max(
@@ -59,7 +59,7 @@ fun ParallaxEffect(scrollState: ScrollState) {
                             )
                         }
                 )
-                //İçerik yazısıyla ilgili still özelliklerini tanımlama
+                //Defining the style properties for the content text
                 Text(
                     text = text,
                     color = Color.White,
