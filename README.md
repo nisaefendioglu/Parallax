@@ -22,7 +22,7 @@ https://user-images.githubusercontent.com/48391281/175119486-5ca607bb-f3c7-4ea4-
 If you want to create an effect that works as you scroll in your application, you can use the parallax effect.
 Our first goal here is to enable scrolling.
 
-Ex code :
+Example code :
 
 ```
 Column(
